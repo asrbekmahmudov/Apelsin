@@ -7,9 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		28B0E8FFBBA4608224FA5E38 /* Pods_Apelsin_ApelsinUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C23C782321A052E8E05B8085 /* Pods_Apelsin_ApelsinUITests.framework */; };
 		4A49044527B2477E000DE87A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A49044427B2477E000DE87A /* AppDelegate.swift */; };
 		4A49044727B2477E000DE87A /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A49044627B2477E000DE87A /* SceneDelegate.swift */; };
-		4A49044927B2477E000DE87A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A49044827B2477E000DE87A /* ViewController.swift */; };
 		4A49044C27B2477E000DE87A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4A49044A27B2477E000DE87A /* Main.storyboard */; };
 		4A49044F27B2477E000DE87A /* Apelsin.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 4A49044D27B2477E000DE87A /* Apelsin.xcdatamodeld */; };
 		4A49045127B24780000DE87A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4A49045027B24780000DE87A /* Assets.xcassets */; };
@@ -17,6 +17,16 @@
 		4A49045F27B24781000DE87A /* ApelsinTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A49045E27B24781000DE87A /* ApelsinTests.swift */; };
 		4A49046927B24781000DE87A /* ApelsinUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A49046827B24781000DE87A /* ApelsinUITests.swift */; };
 		4A49046B27B24781000DE87A /* ApelsinUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A49046A27B24781000DE87A /* ApelsinUITestsLaunchTests.swift */; };
+		4A49048127B24B9F000DE87A /* ScrollingActions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A49047B27B24B9E000DE87A /* ScrollingActions.swift */; };
+		4A49048227B24B9F000DE87A /* SetupView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A49047C27B24B9E000DE87A /* SetupView.swift */; };
+		4A49048327B24B9F000DE87A /* MainViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 4A49047D27B24B9E000DE87A /* MainViewController.xib */; };
+		4A49048427B24B9F000DE87A /* MainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A49047E27B24B9E000DE87A /* MainView.swift */; };
+		4A49048527B24B9F000DE87A /* BalanceView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A49047F27B24B9F000DE87A /* BalanceView.swift */; };
+		4A49048627B24B9F000DE87A /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A49048027B24B9F000DE87A /* MainViewController.swift */; };
+		4A49048E27B24E6A000DE87A /* KeyboardViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4A49048D27B24E6A000DE87A /* KeyboardViewController.swift */; };
+		4A49049327B24E6A000DE87A /* keyboard.appex in Embed App Extensions */ = {isa = PBXBuildFile; fileRef = 4A49048B27B24E6A000DE87A /* keyboard.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		97227C143238B85AD60BA0D9 /* Pods_Apelsin.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = C9D4842F9A86C3C3AACA4130 /* Pods_Apelsin.framework */; };
+		C87B8039A055D539D854B015 /* Pods_ApelsinTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2BCE7D56324E555CB1DF8191 /* Pods_ApelsinTests.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,13 +44,35 @@
 			remoteGlobalIDString = 4A49044027B2477E000DE87A;
 			remoteInfo = Apelsin;
 		};
+		4A49049027B24E6A000DE87A /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4A49043927B2477E000DE87A /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4A49048A27B24E6A000DE87A;
+			remoteInfo = keyboard;
+		};
 /* End PBXContainerItemProxy section */
 
+/* Begin PBXCopyFilesBuildPhase section */
+		4A49049227B24E6A000DE87A /* Embed App Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				4A49049327B24E6A000DE87A /* keyboard.appex in Embed App Extensions */,
+			);
+			name = "Embed App Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
 /* Begin PBXFileReference section */
+		16D5CB60FA7A3F9F78613808 /* Pods-ApelsinTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApelsinTests.debug.xcconfig"; path = "Target Support Files/Pods-ApelsinTests/Pods-ApelsinTests.debug.xcconfig"; sourceTree = "<group>"; };
+		2BCE7D56324E555CB1DF8191 /* Pods_ApelsinTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ApelsinTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A49044127B2477E000DE87A /* Apelsin.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Apelsin.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A49044427B2477E000DE87A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		4A49044627B2477E000DE87A /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		4A49044827B2477E000DE87A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		4A49044B27B2477E000DE87A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		4A49044E27B2477E000DE87A /* Apelsin.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Apelsin.xcdatamodel; sourceTree = "<group>"; };
 		4A49045027B24780000DE87A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -51,6 +83,22 @@
 		4A49046427B24781000DE87A /* ApelsinUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ApelsinUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4A49046827B24781000DE87A /* ApelsinUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApelsinUITests.swift; sourceTree = "<group>"; };
 		4A49046A27B24781000DE87A /* ApelsinUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ApelsinUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		4A49047B27B24B9E000DE87A /* ScrollingActions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ScrollingActions.swift; sourceTree = "<group>"; };
+		4A49047C27B24B9E000DE87A /* SetupView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SetupView.swift; sourceTree = "<group>"; };
+		4A49047D27B24B9E000DE87A /* MainViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainViewController.xib; sourceTree = "<group>"; };
+		4A49047E27B24B9E000DE87A /* MainView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainView.swift; sourceTree = "<group>"; };
+		4A49047F27B24B9F000DE87A /* BalanceView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = BalanceView.swift; sourceTree = "<group>"; };
+		4A49048027B24B9F000DE87A /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		4A49048B27B24E6A000DE87A /* keyboard.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = keyboard.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		4A49048D27B24E6A000DE87A /* KeyboardViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = KeyboardViewController.swift; sourceTree = "<group>"; };
+		4A49048F27B24E6A000DE87A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9961E5EB8E4BCF2B6999AECE /* Pods-Apelsin.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Apelsin.debug.xcconfig"; path = "Target Support Files/Pods-Apelsin/Pods-Apelsin.debug.xcconfig"; sourceTree = "<group>"; };
+		C23C782321A052E8E05B8085 /* Pods_Apelsin_ApelsinUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Apelsin_ApelsinUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C95FB78D8EBA8B2FE157DD85 /* Pods-Apelsin-ApelsinUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Apelsin-ApelsinUITests.release.xcconfig"; path = "Target Support Files/Pods-Apelsin-ApelsinUITests/Pods-Apelsin-ApelsinUITests.release.xcconfig"; sourceTree = "<group>"; };
+		C9D4842F9A86C3C3AACA4130 /* Pods_Apelsin.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Apelsin.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		D00D96C7B21432A387901B73 /* Pods-Apelsin-ApelsinUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Apelsin-ApelsinUITests.debug.xcconfig"; path = "Target Support Files/Pods-Apelsin-ApelsinUITests/Pods-Apelsin-ApelsinUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		F4883E1E47D51D68DE4614BB /* Pods-Apelsin.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Apelsin.release.xcconfig"; path = "Target Support Files/Pods-Apelsin/Pods-Apelsin.release.xcconfig"; sourceTree = "<group>"; };
+		F98A2809A904B9809EF2B9F3 /* Pods-ApelsinTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ApelsinTests.release.xcconfig"; path = "Target Support Files/Pods-ApelsinTests/Pods-ApelsinTests.release.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +106,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				97227C143238B85AD60BA0D9 /* Pods_Apelsin.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,10 +114,19 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				C87B8039A055D539D854B015 /* Pods_ApelsinTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 		4A49046127B24781000DE87A /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				28B0E8FFBBA4608224FA5E38 /* Pods_Apelsin_ApelsinUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4A49048827B24E6A000DE87A /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -84,7 +142,10 @@
 				4A49044327B2477E000DE87A /* Apelsin */,
 				4A49045D27B24781000DE87A /* ApelsinTests */,
 				4A49046727B24781000DE87A /* ApelsinUITests */,
+				4A49048C27B24E6A000DE87A /* keyboard */,
 				4A49044227B2477E000DE87A /* Products */,
+				F901D2E7E37482D1B21441DF /* Pods */,
+				E645715895B919A06C723893 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -94,6 +155,7 @@
 				4A49044127B2477E000DE87A /* Apelsin.app */,
 				4A49045A27B24781000DE87A /* ApelsinTests.xctest */,
 				4A49046427B24781000DE87A /* ApelsinUITests.xctest */,
+				4A49048B27B24E6A000DE87A /* keyboard.appex */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -101,12 +163,10 @@
 		4A49044327B2477E000DE87A /* Apelsin */ = {
 			isa = PBXGroup;
 			children = (
+				4A49047827B24AF2000DE87A /* controllers */,
+				4A49047727B24787000DE87A /* app utils */,
 				4A49044427B2477E000DE87A /* AppDelegate.swift */,
 				4A49044627B2477E000DE87A /* SceneDelegate.swift */,
-				4A49044827B2477E000DE87A /* ViewController.swift */,
-				4A49044A27B2477E000DE87A /* Main.storyboard */,
-				4A49045027B24780000DE87A /* Assets.xcassets */,
-				4A49045227B24780000DE87A /* LaunchScreen.storyboard */,
 				4A49045527B24780000DE87A /* Info.plist */,
 				4A49044D27B2477E000DE87A /* Apelsin.xcdatamodeld */,
 			);
@@ -130,6 +190,61 @@
 			path = ApelsinUITests;
 			sourceTree = "<group>";
 		};
+		4A49047727B24787000DE87A /* app utils */ = {
+			isa = PBXGroup;
+			children = (
+				4A49044A27B2477E000DE87A /* Main.storyboard */,
+				4A49045027B24780000DE87A /* Assets.xcassets */,
+				4A49045227B24780000DE87A /* LaunchScreen.storyboard */,
+			);
+			path = "app utils";
+			sourceTree = "<group>";
+		};
+		4A49047827B24AF2000DE87A /* controllers */ = {
+			isa = PBXGroup;
+			children = (
+				4A49048027B24B9F000DE87A /* MainViewController.swift */,
+				4A49047D27B24B9E000DE87A /* MainViewController.xib */,
+				4A49047C27B24B9E000DE87A /* SetupView.swift */,
+				4A49047F27B24B9F000DE87A /* BalanceView.swift */,
+				4A49047E27B24B9E000DE87A /* MainView.swift */,
+				4A49047B27B24B9E000DE87A /* ScrollingActions.swift */,
+			);
+			path = controllers;
+			sourceTree = "<group>";
+		};
+		4A49048C27B24E6A000DE87A /* keyboard */ = {
+			isa = PBXGroup;
+			children = (
+				4A49048D27B24E6A000DE87A /* KeyboardViewController.swift */,
+				4A49048F27B24E6A000DE87A /* Info.plist */,
+			);
+			path = keyboard;
+			sourceTree = "<group>";
+		};
+		E645715895B919A06C723893 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				C9D4842F9A86C3C3AACA4130 /* Pods_Apelsin.framework */,
+				C23C782321A052E8E05B8085 /* Pods_Apelsin_ApelsinUITests.framework */,
+				2BCE7D56324E555CB1DF8191 /* Pods_ApelsinTests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F901D2E7E37482D1B21441DF /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9961E5EB8E4BCF2B6999AECE /* Pods-Apelsin.debug.xcconfig */,
+				F4883E1E47D51D68DE4614BB /* Pods-Apelsin.release.xcconfig */,
+				D00D96C7B21432A387901B73 /* Pods-Apelsin-ApelsinUITests.debug.xcconfig */,
+				C95FB78D8EBA8B2FE157DD85 /* Pods-Apelsin-ApelsinUITests.release.xcconfig */,
+				16D5CB60FA7A3F9F78613808 /* Pods-ApelsinTests.debug.xcconfig */,
+				F98A2809A904B9809EF2B9F3 /* Pods-ApelsinTests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -137,13 +252,17 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4A49046E27B24781000DE87A /* Build configuration list for PBXNativeTarget "Apelsin" */;
 			buildPhases = (
+				0DCE94B5D800FE3136DCB12F /* [CP] Check Pods Manifest.lock */,
 				4A49043D27B2477E000DE87A /* Sources */,
 				4A49043E27B2477E000DE87A /* Frameworks */,
 				4A49043F27B2477E000DE87A /* Resources */,
+				43CFF07C4A0A35F93F3D805E /* [CP] Embed Pods Frameworks */,
+				4A49049227B24E6A000DE87A /* Embed App Extensions */,
 			);
 			buildRules = (
 			);
 			dependencies = (
+				4A49049127B24E6A000DE87A /* PBXTargetDependency */,
 			);
 			name = Apelsin;
 			productName = Apelsin;
@@ -154,6 +273,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4A49047127B24781000DE87A /* Build configuration list for PBXNativeTarget "ApelsinTests" */;
 			buildPhases = (
+				86F15B264BFC15EEA02C29F2 /* [CP] Check Pods Manifest.lock */,
 				4A49045627B24781000DE87A /* Sources */,
 				4A49045727B24781000DE87A /* Frameworks */,
 				4A49045827B24781000DE87A /* Resources */,
@@ -172,9 +292,11 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 4A49047427B24781000DE87A /* Build configuration list for PBXNativeTarget "ApelsinUITests" */;
 			buildPhases = (
+				CAE7CF264019F1F519585783 /* [CP] Check Pods Manifest.lock */,
 				4A49046027B24781000DE87A /* Sources */,
 				4A49046127B24781000DE87A /* Frameworks */,
 				4A49046227B24781000DE87A /* Resources */,
+				092A76B847440A9CECAEB916 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -185,6 +307,23 @@
 			productName = ApelsinUITests;
 			productReference = 4A49046427B24781000DE87A /* ApelsinUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+		4A49048A27B24E6A000DE87A /* keyboard */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4A49049427B24E6A000DE87A /* Build configuration list for PBXNativeTarget "keyboard" */;
+			buildPhases = (
+				4A49048727B24E6A000DE87A /* Sources */,
+				4A49048827B24E6A000DE87A /* Frameworks */,
+				4A49048927B24E6A000DE87A /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = keyboard;
+			productName = keyboard;
+			productReference = 4A49048B27B24E6A000DE87A /* keyboard.appex */;
+			productType = "com.apple.product-type.app-extension";
 		};
 /* End PBXNativeTarget section */
 
@@ -207,6 +346,9 @@
 						CreatedOnToolsVersion = 13.0;
 						TestTargetID = 4A49044027B2477E000DE87A;
 					};
+					4A49048A27B24E6A000DE87A = {
+						CreatedOnToolsVersion = 13.0;
+					};
 				};
 			};
 			buildConfigurationList = 4A49043C27B2477E000DE87A /* Build configuration list for PBXProject "Apelsin" */;
@@ -225,6 +367,7 @@
 				4A49044027B2477E000DE87A /* Apelsin */,
 				4A49045927B24781000DE87A /* ApelsinTests */,
 				4A49046327B24781000DE87A /* ApelsinUITests */,
+				4A49048A27B24E6A000DE87A /* keyboard */,
 			);
 		};
 /* End PBXProject section */
@@ -237,6 +380,7 @@
 				4A49045427B24780000DE87A /* LaunchScreen.storyboard in Resources */,
 				4A49045127B24780000DE87A /* Assets.xcassets in Resources */,
 				4A49044C27B2477E000DE87A /* Main.storyboard in Resources */,
+				4A49048327B24B9F000DE87A /* MainViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -254,7 +398,117 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4A49048927B24E6A000DE87A /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		092A76B847440A9CECAEB916 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Apelsin-ApelsinUITests/Pods-Apelsin-ApelsinUITests-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Apelsin-ApelsinUITests/Pods-Apelsin-ApelsinUITests-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Apelsin-ApelsinUITests/Pods-Apelsin-ApelsinUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		0DCE94B5D800FE3136DCB12F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Apelsin-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		43CFF07C4A0A35F93F3D805E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Apelsin/Pods-Apelsin-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-Apelsin/Pods-Apelsin-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-Apelsin/Pods-Apelsin-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		86F15B264BFC15EEA02C29F2 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ApelsinTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CAE7CF264019F1F519585783 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Apelsin-ApelsinUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		4A49043D27B2477E000DE87A /* Sources */ = {
@@ -262,9 +516,13 @@
 			buildActionMask = 2147483647;
 			files = (
 				4A49044F27B2477E000DE87A /* Apelsin.xcdatamodeld in Sources */,
-				4A49044927B2477E000DE87A /* ViewController.swift in Sources */,
+				4A49048427B24B9F000DE87A /* MainView.swift in Sources */,
 				4A49044527B2477E000DE87A /* AppDelegate.swift in Sources */,
 				4A49044727B2477E000DE87A /* SceneDelegate.swift in Sources */,
+				4A49048227B24B9F000DE87A /* SetupView.swift in Sources */,
+				4A49048127B24B9F000DE87A /* ScrollingActions.swift in Sources */,
+				4A49048527B24B9F000DE87A /* BalanceView.swift in Sources */,
+				4A49048627B24B9F000DE87A /* MainViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -285,6 +543,14 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
+		4A49048727B24E6A000DE87A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4A49048E27B24E6A000DE87A /* KeyboardViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
@@ -297,6 +563,11 @@
 			isa = PBXTargetDependency;
 			target = 4A49044027B2477E000DE87A /* Apelsin */;
 			targetProxy = 4A49046527B24781000DE87A /* PBXContainerItemProxy */;
+		};
+		4A49049127B24E6A000DE87A /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4A49048A27B24E6A000DE87A /* keyboard */;
+			targetProxy = 4A49049027B24E6A000DE87A /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -438,7 +709,9 @@
 		};
 		4A49046F27B24781000DE87A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9961E5EB8E4BCF2B6999AECE /* Pods-Apelsin.debug.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -465,7 +738,9 @@
 		};
 		4A49047027B24781000DE87A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F4883E1E47D51D68DE4614BB /* Pods-Apelsin.release.xcconfig */;
 			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
@@ -492,6 +767,7 @@
 		};
 		4A49047227B24781000DE87A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 16D5CB60FA7A3F9F78613808 /* Pods-ApelsinTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -516,6 +792,7 @@
 		};
 		4A49047327B24781000DE87A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = F98A2809A904B9809EF2B9F3 /* Pods-ApelsinTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -540,6 +817,7 @@
 		};
 		4A49047527B24781000DE87A /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = D00D96C7B21432A387901B73 /* Pods-Apelsin-ApelsinUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -562,6 +840,7 @@
 		};
 		4A49047627B24781000DE87A /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C95FB78D8EBA8B2FE157DD85 /* Pods-Apelsin-ApelsinUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -579,6 +858,54 @@
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
 				TEST_TARGET_NAME = Apelsin;
+			};
+			name = Release;
+		};
+		4A49049527B24E6A000DE87A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = keyboard/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = keyboard;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = some.Apelsin.keyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		4A49049627B24E6A000DE87A /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = keyboard/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = keyboard;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = some.Apelsin.keyboard;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -617,6 +944,15 @@
 			buildConfigurations = (
 				4A49047527B24781000DE87A /* Debug */,
 				4A49047627B24781000DE87A /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4A49049427B24E6A000DE87A /* Build configuration list for PBXNativeTarget "keyboard" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4A49049527B24E6A000DE87A /* Debug */,
+				4A49049627B24E6A000DE87A /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
